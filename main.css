@@ -35,10 +35,6 @@ p {
   margin: 1rem;
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   padding: 0.5rem;
