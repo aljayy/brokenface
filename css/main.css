@@ -1,0 +1,268 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1280px;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card {
+  background: #ccc;
+  padding: 1rem;
+}
+
+.box1 {
+  background: #8b0000;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.whitebtn {
+  background: white;
+  color: #8b0000;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  border-bottom: 2px solid #ccc;
+  background: black;
+}
+
+header .container {
+  background: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header .container nav {
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  height: 80px;
+}
+
+header .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container nav ul li {
+  margin: 0 10px;
+}
+
+header .container nav ul li a {
+  color: white;
+  padding: 1rem 2rem;
+  margin: 10px;
+}
+
+header .container nav ul li a:hover {
+  background: darkred;
+  background: -webkit-gradient(linear, left top, right top, color-stop(37%, darkred), to(black));
+  background: linear-gradient(90deg, darkred 37%, black 100%);
+  color: white;
+}
+
+.section-a .container .articles-container {
+  padding-top: 85px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.section-a .container .articles-container .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-b .container {
+  border-bottom: 2px solid #8b0000;
+}
+
+.section-b .container .articles-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.section-b .container .articles-container .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.section-c .container {
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: #8b0000 2px solid;
+}
+
+.section-c .container h2 {
+  padding-bottom: 1rem;
+}
+
+.section-c .container .articles-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.section-c .container .articles-container div img {
+  height: 230px;
+}
+
+.section-d .container {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.section-d .container h2 {
+  padding-bottom: 1rem;
+}
+
+.section-d .container .articles-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.section-d .container .articles-container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-d .container .articles-container img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.section-d .container .articles-container p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+footer .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  padding-top: 10px;
+  gap: 10px;
+}
+
+footer .container div {
+  border-right: #8b0000 1px solid;
+}
+
+footer .container div input[type="email"] {
+  width: 95%;
+  padding: 0.5rem;
+  margin: 10px 0;
+}
+
+footer .container div input[type="submit"] {
+  display: inline-block;
+  border: none;
+  padding: 1rem 0.5rem;
+  width: 50%;
+  margin: 10px 0;
+}
+
+footer .container div ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+footer .container div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .container p {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / span 4;
+}
+
+footer .container :nth-child(3) {
+  border-right: none;
+}
+/*# sourceMappingURL=main.css.map */
